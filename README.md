@@ -1,37 +1,23 @@
-# Getting Started with Create React App and GrapeJS
+# Welcome to Our Project with Builder
 
-This project has been bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and utilizes [GrapeJS](https://github.com/GrapesJS/grapesjs), a powerful web builder framework.
+Our project leverages [Builder](https://github.com/GrapesJS/grapesjs), a versatile and open-source Web Builder Framework. Builder empowers users to create drag-and-drop builders for various content types such as web pages, newsletters, mobile apps, and PDFs. The framework is specifically designed to facilitate the development of intricate HTML-like templates without the need for advanced coding skills.
 
-## Available Scripts
+## Framework Features
 
-In the project directory, you can use the following npm scripts:
+- **Multi-Purpose Nature**: Builder is a multi-purpose framework that enables the design of diverse content structures tailored to different needs.
 
-### `npm start`
+- **Drag-and-Drop Functionality**: Enjoy a seamless drag-and-drop experience for easy manipulation of content within the editor canvas.
 
-Run this command to start the application in development mode. The application, including GrapeJS functionalities, will be accessible at [http://localhost:3000](http://localhost:3000) in your browser. The page will automatically reload upon making edits, and lint errors will be displayed in the console.
+- **Built-in Blocks**: Builder provides a collection of pre-built blocks that users can readily use in the editor, streamlining the content creation process.
 
-### `npm test`
+- **Custom Block Flexibility**: Users have the flexibility to craft custom blocks, allowing for a highly customizable and tailored content creation experience.
 
-Launch the test runner in interactive watch mode. Refer to the [running tests](https://facebook.github.io/create-react-app/docs/running-tests) section for detailed information.
+## Getting Started
 
-### `npm run build`
+To begin working with our project:
 
-Build the application for production in the `build` folder. This process bundles React in production mode and optimizes the build for optimal performance. The resulting files are minified and include unique hashes. Your application, integrated with GrapeJS, is then ready for deployment.
+### 1. Clone the Repository
 
-For more details on deployment, see the [deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
-
-### `npm run eject`
-
-**Note: Ejecting is a one-way operation. Once ejected, there is no going back!**
-
-If you find the need to customize the build tool and configuration choices, you can use this command to eject. Ejecting copies all configuration files and transitive dependencies (webpack, Babel, ESLint, etc.) directly into your project, granting you full control. After ejecting, all commands, except `eject`, still work, but they now refer to the copied scripts, allowing for further customization.
-
-It's important to note that ejecting is not obligatory. The curated feature set is suitable for small to mid-sized deployments, and you may choose not to use this feature.
-
-## Learn More
-
-Explore more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn about GrapeJS, visit the [GrapeJS GitHub repository](https://github.com/GrapesJS/grapesjs).
-
-To gain proficiency in React, refer to the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/cristopher-dev/grapesjs-builder.git
+```
