@@ -1,0 +1,25 @@
+import { EditorConfig } from 'grapesjs';
+
+const assetUrls = [
+  'https://via.placeholder.com/350x250/78c5d6/fff',
+  'https://via.placeholder.com/350x250/459ba8/fff',
+  'https://via.placeholder.com/350x250/79c267/fff',
+  'https://via.placeholder.com/350x250/c5d647/fff',
+  'https://via.placeholder.com/350x250/f28c33/fff',
+];
+
+const initialPage = {
+  name: 'Home page',
+  component: `<h1>GrapesJS React Custom UI</h1>`,
+};
+
+export const gjsOptions: EditorConfig = {
+  height: '100vh',
+  storageManager: false,
+  undoManager: { trackSelection: false },
+  selectorManager: { componentFirst: true },
+  projectData: {
+    assets: assetUrls,
+    pages: [initialPage],
+  },
+};
